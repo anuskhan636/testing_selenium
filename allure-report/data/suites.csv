@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sun Nov 13 16:12:34 IST 2022","Sun Nov 13 16:12:54 IST 2022","20211","","test_abd","","","","test_login[abdeali@gmail.com-abdeali@123]",""
+"passed","Sun Nov 13 16:13:40 IST 2022","Sun Nov 13 16:14:00 IST 2022","20271","","test_abd","","","","test_login[ali@gmail.com-ali@123]",""
+"passed","Sun Nov 13 16:13:28 IST 2022","Sun Nov 13 16:13:48 IST 2022","20310","","test_abd","","","","test_login[abd@gmail.com-abd@123]",""
