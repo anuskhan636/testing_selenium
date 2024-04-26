@@ -1,6 +1,6 @@
 @echo off
 
-set "VIRTUAL_ENV=C:\Users\AbdealiDodiya\Desktop\DevOps\Python Selenium\Pytest_project\jenkins_project"
+set "VIRTUAL_ENV=D:\DevOps Notes\Python Selenium\jenkins_project"
 
 if defined _OLD_VIRTUAL_PROMPT (
     set "PROMPT=%_OLD_VIRTUAL_PROMPT%"
