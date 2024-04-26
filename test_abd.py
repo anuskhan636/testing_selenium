@@ -2,13 +2,15 @@ import pytest
 from allure_commons.types import AttachmentType
 from selenium import webdriver
 from selenium.webdriver.common.by import By
+from selenium.webdriver.common.service import Service
 from webdriver_manager.firefox import GeckoDriverManager
 import  time
 
 
 def setup_function():
     global driver
-    driver = webdriver.Firefox(executable_path=GeckoDriverManager().install())
+    browser = Service(GeckoDriverManager().install())
+    driver = webdriver.Firefox(service=browser)
     driver.get('https://stage.alnafi.com/auth/signin')
     driver.maximize_window()
 
@@ -17,7 +19,7 @@ def teardown_function():
 
 def my_cred():
     return [
-        ('abdeali@gmail.com', 'abdeali@123'),
+        ('anus@gmail.com', 'anus@123'),
         ('ali@gmail.com', 'ali@123')
     ]
 @pytest.mark.parametrize("username,password",my_cred())
